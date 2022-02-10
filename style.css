@@ -1,0 +1,22 @@
+*, *::after ,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.board {
+    /*vw= view width, vh = view height */
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    justify-content:center;
+    align-content: center;  
+}
+
+.cell {
+    /* 1px = 1/96 inch*/
+    width:100px;
+    background-color:black;
+}

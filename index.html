@@ -11,6 +11,25 @@
         and executed after the page has finished parsing-->
 </head>
 <body>
-    hello
+    <!--Board div for putting tic tac toes-->
+    <div class="board" id="board">
+        <!--.cell*9 meaning cell div 9 times-->
+        <!--data-cell to denote so can easily access the info in the javascript without 
+        using class cell-->
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>  
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <!--div for black section-->
+        <div data-winning-message-text><!--winning message text--></div>
+        <button id="restartButton">Restart</button>
+    </div>
 </body>
 </html>
